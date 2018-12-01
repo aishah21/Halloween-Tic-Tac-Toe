@@ -1,0 +1,156 @@
+body {
+    width: 1259px; height: 900px;
+    margin: 0;
+    padding: 0px;
+    background-color: whitesmoke;
+    overflow: hidden;
+/*     font-family: 'Roboto', sans-serif;
+ */    font-family: 'Monoton', cursive;
+  }
+  
+ 
+ body > p{
+      margin: 0px;
+      padding: 0px;
+      top: 130px;
+      right: 430px;
+      font-size:40px;
+      text-align: center;
+      color: black;
+  }
+  .background1 {
+    width: 2000px;
+    height: 70px;
+    background-color:rgba(250, 215, 160, 0.521);
+    position: relative;
+  }
+  .background2 {
+    position: relative;
+    width: 2000px;
+    height: 70px;
+    background-color:rgba(248, 196, 113, 0.548);
+  }
+  .bat{
+    position: absolute;
+    width:380px;
+    height:200px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  .spider {
+    position: absolute;
+    width:480px;
+    height:200px;
+    top: 0px;
+    right: 0px;  
+    margin: 0px;
+    padding: 0px;
+  }
+ 
+
+table {
+    position: absolute;
+    display: block;
+    width:602px;
+    height: 602px;
+    top: 250px; 
+    right: 400px; 
+    border: 10px solid black ; 
+  }
+  td {
+    width:194px;
+   height:194px;
+   border: 1px solid black ;
+   background-color: whitesmoke;
+   
+  }
+  td:after {
+    content: '';
+    display: block;
+    
+  }
+  .hat{
+    position: absolute;
+    width:80px;
+    height:100px;
+    top: 260px;
+    left: 100px;
+  }
+  .rHant {
+    position: absolute;
+    font-size: 20px;
+    top: 400px;
+    right:1300px;
+   
+  }
+  .pumpkin{
+    position: absolute;
+    width:80px;
+    height:80px;
+    top: 270px;
+    right: 130px;
+    
+  }
+  .rPumpkin {
+    position: absolute;
+    font-size: 20px;
+    top: 400px;
+    right: 130px;
+  }
+  div{
+      margin: 0px;
+      padding: 0px;
+     
+      
+
+  }
+ 
+
+  .main {
+    background-image: url("imags/backg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0px ;
+  }
+  .main > p {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: DARKSLATEBLUE;
+  
+  }
+  .start {
+    background-color: blanchedalmond;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 430px;
+    top: 270px;
+
+  }
+  .start > p {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 120px;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  button{
+    position: absolute;
+    height: 140px;
+    width: 120px;
+    left:1040px;
+    top: 480px;
+    background-color: blanchedalmond;
+  }
+  
